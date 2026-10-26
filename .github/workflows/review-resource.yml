@@ -1,0 +1,34 @@
+name: Review resource intake
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Resource issue number to revalidate and propose as a candidate PR
+        required: true
+        type: string
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+concurrency:
+  group: resource-review
+  cancel-in-progress: false
+jobs:
+  propose:
+    # Manual dispatch is limited to writers; always execute trusted default-branch code.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - name: Fetch current issue, revalidate and open a draft PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ inputs.issue_number }}
+        run: python scripts/propose_resource.py
