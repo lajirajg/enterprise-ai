@@ -2,7 +2,7 @@
 
 An end-to-end learning repository connecting business outcomes, enterprise operations, AI platform capabilities and the digitised enterprise foundation.
 
-**[Read the architecture](docs/architecture/index.md)** · **[Browse the knowledge base](docs/index.md)** · **[Add a resource](https://github.com/lajirajg/enterprise-ai/issues/new?template=resource.yml)**
+**[Open the live site](https://lajirajg.github.io/enterprise-ai/)** · **[Read the architecture](docs/architecture/index.md)** · **[Browse the knowledge base](docs/index.md)** · **[Add a resource](https://github.com/lajirajg/enterprise-ai/issues/new?template=resource.yml)**
 
 ## Structure
 
