@@ -15,6 +15,10 @@ An end-to-end learning repository connecting business outcomes, enterprise opera
 - Canonical capability and resource catalogues, plus explicit planned-content placeholders
 - A separate Modern Operate profile with a clear public/private boundary
 
+## Activation status
+
+The architecture, site source, issue form and intake scripts are available. The four GitHub Actions workflow files are prepared and tested locally but await GitHub `workflow` authorisation before upload. Automated intake, CI and Pages deployment are not active yet. Local setup works; workflow-specific tests are skipped in a checkout without those files.
+
 ## Local setup
 
 ```sh
