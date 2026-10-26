@@ -1,0 +1,52 @@
+[
+  {
+    "id": "L1",
+    "name": "User Experience",
+    "page": "architecture/layers/user-experience/index.md"
+  },
+  {
+    "id": "L2",
+    "name": "Intelligent Orchestration",
+    "page": "architecture/layers/intelligent-orchestration/index.md"
+  },
+  {
+    "id": "L3",
+    "name": "Execution",
+    "page": "architecture/layers/execution/index.md"
+  },
+  {
+    "id": "L4",
+    "name": "Data & AI for Continuous Improvement",
+    "page": "architecture/layers/continuous-improvement/index.md"
+  },
+  {
+    "id": "L5",
+    "name": "Central Hub for Monitoring & Governance",
+    "page": "architecture/layers/monitoring-governance/index.md"
+  },
+  {
+    "id": "A",
+    "name": "Knowledge & Memory",
+    "page": "architecture/spines/knowledge-memory/index.md"
+  },
+  {
+    "id": "B",
+    "name": "Trust & Control",
+    "page": "architecture/spines/trust-control/index.md"
+  },
+  {
+    "id": "C",
+    "name": "Workforce & Ways of Working",
+    "page": "architecture/spines/workforce/index.md"
+  },
+  {
+    "id": "IC",
+    "name": "Intelligent Core",
+    "page": "intelligent-core/index.md"
+  },
+  {
+    "id": "DD",
+    "name": "Data & Digital Core",
+    "page": "data-digital-core/index.md"
+  }
+]

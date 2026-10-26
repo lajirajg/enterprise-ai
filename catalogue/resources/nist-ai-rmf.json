@@ -1,0 +1,15 @@
+{
+  "id": "nist-ai-rmf",
+  "title": "NIST AI Risk Management Framework",
+  "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "summary": "Primary entry point for the AI Risk Management Framework and related guidance. Use it to structure risk work; inclusion is not a compliance assessment.",
+  "capabilities": [
+    "b-safety-assurance",
+    "l5-assurance-evidence"
+  ],
+  "status": "curated",
+  "added": "2026-10-26",
+  "reviewed_by": "Codex (initial public-source review)",
+  "reviewed_on": "2026-10-26",
+  "retirement_reason": ""
+}

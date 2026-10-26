@@ -1,0 +1,56 @@
+site_name: Enterprise AI Knowledge Architecture
+site_description: Business outcomes, enterprise operating architecture, and the AI and digital foundations.
+site_url: https://lajirajg.github.io/enterprise-ai/
+repo_url: https://github.com/lajirajg/enterprise-ai
+repo_name: lajirajg/enterprise-ai
+strict: true
+theme:
+  name: material
+  font: false
+  palette:
+    primary: teal
+    accent: lime
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Business outcomes: business-outcomes/index.md
+  - Operating architecture:
+      - Overview: architecture/index.md
+      - User Experience: architecture/layers/user-experience/index.md
+      - Intelligent Orchestration: architecture/layers/intelligent-orchestration/index.md
+      - Execution: architecture/layers/execution/index.md
+      - Continuous Improvement: architecture/layers/continuous-improvement/index.md
+      - Monitoring & Governance: architecture/layers/monitoring-governance/index.md
+      - Knowledge & Memory: architecture/spines/knowledge-memory/index.md
+      - Trust & Control: architecture/spines/trust-control/index.md
+      - Workforce & Ways of Working: architecture/spines/workforce/index.md
+  - Intelligent Core: intelligent-core/index.md
+  - Data & Digital Core: data-digital-core/index.md
+  - Industry playbooks: playbooks/index.md
+  - Learning paths: learning-paths/index.md
+  - Labs: labs/index.md
+  - Catalogues:
+      - Capabilities: catalogues/capabilities.md
+      - Resources: catalogues/resources.md
+  - Modern Operate profile: profiles/modern-operate.md
+  - Content roadmap: roadmap.md
+  - Contributing:
+      - Add a resource: contributing/resource-intake.md
+      - Setup and publishing: contributing/setup.md
+      - Design decisions: about/design-decisions.md
+validation:
+  nav:
+    omitted_files: ignore
+  links:
+    not_found: warn
+    anchors: warn

@@ -1,0 +1,29 @@
+name: Add a resource
+description: Save a public URL now; classify and review it later.
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Paste a public HTTPS URL. Everything in this issue is public. Do not submit private documents, signed links, credentials or proprietary material. Automation validates metadata only; it does not open the URL or approve the resource.
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      placeholder: https://publisher.example/article
+    validations:
+      required: true
+  - type: input
+    id: relevance
+    attributes:
+      label: Why it matters
+      description: Optional short note. Leave blank to capture now and review later.
+    validations:
+      required: false
+  - type: input
+    id: capabilities
+    attributes:
+      label: Capability IDs (optional)
+      description: Optional comma-separated canonical IDs, such as ic-agent-harness. Leave blank if unsure.
+    validations:
+      required: false

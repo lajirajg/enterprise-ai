@@ -1,0 +1,407 @@
+[
+  {
+    "id": "l1-intent-intake",
+    "name": "Intent and request intake",
+    "area": "L1",
+    "definition": "Turn a request into a structured work item with a clear purpose and completion criteria.",
+    "acceptance": "Given an ambiguous request, capture missing information before work is routed.",
+    "status": "in-progress",
+    "page": "capabilities/l1-intent-intake.md"
+  },
+  {
+    "id": "l1-human-approvals",
+    "name": "Human approval experience",
+    "area": "L1",
+    "definition": "Let an authorised person inspect the proposed action, evidence and consequences.",
+    "acceptance": "Record approver, scope and expiry; reject a stale or unauthorised approval.",
+    "status": "in-progress",
+    "page": "capabilities/l1-human-approvals.md"
+  },
+  {
+    "id": "l1-progress-feedback",
+    "name": "Progress and feedback",
+    "area": "L1",
+    "definition": "Expose work status and capture corrections without losing task context.",
+    "acceptance": "A user can find the current state, submit a correction and see who owns the next step.",
+    "status": "in-progress",
+    "page": "capabilities/l1-progress-feedback.md"
+  },
+  {
+    "id": "l1-accessible-channels",
+    "name": "Accessible channels",
+    "area": "L1",
+    "definition": "Support the channels and accessibility needs of each audience.",
+    "acceptance": "The same work item retains identity and permissions when moving between supported channels.",
+    "status": "in-progress",
+    "page": "capabilities/l1-accessible-channels.md"
+  },
+  {
+    "id": "l2-work-classification",
+    "name": "Work classification",
+    "area": "L2",
+    "definition": "Assess task complexity, risk and reversibility before selecting an execution mode.",
+    "acceptance": "A high-impact action cannot inherit the routing of a low-risk information request.",
+    "status": "in-progress",
+    "page": "capabilities/l2-work-classification.md"
+  },
+  {
+    "id": "l2-planning-routing",
+    "name": "Planning and routing",
+    "area": "L2",
+    "definition": "Allocate work among people, deterministic workflows, automations and agents.",
+    "acceptance": "Record why a route was selected and what happens when its executor is unavailable.",
+    "status": "in-progress",
+    "page": "capabilities/l2-planning-routing.md"
+  },
+  {
+    "id": "l2-autonomy-policy",
+    "name": "Autonomy policy",
+    "area": "L2",
+    "definition": "Set permitted actions and approval gates for each use case.",
+    "acceptance": "A policy change or revocation is enforced before the next consequential action.",
+    "status": "in-progress",
+    "page": "capabilities/l2-autonomy-policy.md"
+  },
+  {
+    "id": "l2-durable-workflows",
+    "name": "Durable workflows",
+    "area": "L2",
+    "definition": "Resume work safely across failures, waits and deployments.",
+    "acceptance": "Restart during an approval wait without losing state or repeating a completed side effect.",
+    "status": "in-progress",
+    "page": "capabilities/l2-durable-workflows.md"
+  },
+  {
+    "id": "l2-tool-gateway",
+    "name": "Tool gateway",
+    "area": "L2",
+    "definition": "Authorise and audit access to enterprise tools.",
+    "acceptance": "Reject an unapproved tool or excessive scope, even when requested by a valid agent.",
+    "status": "in-progress",
+    "page": "capabilities/l2-tool-gateway.md"
+  },
+  {
+    "id": "l3-human-execution",
+    "name": "Human execution",
+    "area": "L3",
+    "definition": "Support a person completing work with context and clear accountability.",
+    "acceptance": "A human receives the evidence, due date and permitted actions needed to finish the assigned task.",
+    "status": "in-progress",
+    "page": "capabilities/l3-human-execution.md"
+  },
+  {
+    "id": "l3-deterministic-automation",
+    "name": "Deterministic automation",
+    "area": "L3",
+    "definition": "Execute repeatable rules with explicit inputs, outputs and failure paths.",
+    "acceptance": "Replaying the same event cannot apply the same business transaction twice.",
+    "status": "in-progress",
+    "page": "capabilities/l3-deterministic-automation.md"
+  },
+  {
+    "id": "l3-agent-execution",
+    "name": "Agent execution",
+    "area": "L3",
+    "definition": "Carry out bounded reasoning and tool use against task completion criteria.",
+    "acceptance": "Stop on budget, permission or quality limits and return a recoverable task state.",
+    "status": "in-progress",
+    "page": "capabilities/l3-agent-execution.md"
+  },
+  {
+    "id": "l3-domain-packs",
+    "name": "Domain packs",
+    "area": "L3",
+    "definition": "Package domain workflows, vocabularies and tests on shared platform services.",
+    "acceptance": "A domain configuration can change without forking common runtime or control logic.",
+    "status": "in-progress",
+    "page": "capabilities/l3-domain-packs.md"
+  },
+  {
+    "id": "l4-process-analysis",
+    "name": "Process analysis",
+    "area": "L4",
+    "definition": "Find delays, rework and exceptions using evidence from actual work.",
+    "acceptance": "Separate a genuine process bottleneck from a missing or duplicated event.",
+    "status": "in-progress",
+    "page": "capabilities/l4-process-analysis.md"
+  },
+  {
+    "id": "l4-evaluation-feedback",
+    "name": "Evaluation and feedback",
+    "area": "L4",
+    "definition": "Measure quality using representative cases and production feedback.",
+    "acceptance": "A proposed change must pass a held-out evaluation and a regression comparison.",
+    "status": "in-progress",
+    "page": "capabilities/l4-evaluation-feedback.md"
+  },
+  {
+    "id": "l4-controlled-improvement",
+    "name": "Controlled improvement",
+    "area": "L4",
+    "definition": "Test and release changes with measurable success and rollback criteria.",
+    "acceptance": "Compare the baseline with the changed process and roll back when guardrail metrics deteriorate.",
+    "status": "in-progress",
+    "page": "capabilities/l4-controlled-improvement.md"
+  },
+  {
+    "id": "l4-knowledge-improvement",
+    "name": "Knowledge improvement",
+    "area": "L4",
+    "definition": "Turn corrections and recurring failures into reviewed knowledge updates.",
+    "acceptance": "A corrected answer creates a traceable review item instead of silently rewriting a source.",
+    "status": "in-progress",
+    "page": "capabilities/l4-knowledge-improvement.md"
+  },
+  {
+    "id": "l5-service-observability",
+    "name": "Service observability",
+    "area": "L5",
+    "definition": "Trace a business request across orchestration, execution and supporting systems.",
+    "acceptance": "Locate the failed dependency from a user-visible work identifier.",
+    "status": "in-progress",
+    "page": "capabilities/l5-service-observability.md"
+  },
+  {
+    "id": "l5-value-cost-monitoring",
+    "name": "Value and cost monitoring",
+    "area": "L5",
+    "definition": "Connect operating costs and performance to business outcomes.",
+    "acceptance": "Report cost per accepted outcome including model, infrastructure and human review costs.",
+    "status": "in-progress",
+    "page": "capabilities/l5-value-cost-monitoring.md"
+  },
+  {
+    "id": "l5-assurance-evidence",
+    "name": "Assurance evidence",
+    "area": "L5",
+    "definition": "Retain evidence of decisions, controls and exceptions.",
+    "acceptance": "An assessor can reconstruct who authorised an action and which policy applied.",
+    "status": "in-progress",
+    "page": "capabilities/l5-assurance-evidence.md"
+  },
+  {
+    "id": "l5-portfolio-governance",
+    "name": "Portfolio governance",
+    "area": "L5",
+    "definition": "Track ownership, lifecycle and dependencies across AI-enabled services.",
+    "acceptance": "Every production use case has an accountable owner, review date and retirement plan.",
+    "status": "in-progress",
+    "page": "capabilities/l5-portfolio-governance.md"
+  },
+  {
+    "id": "a-grounded-retrieval",
+    "name": "Grounded retrieval",
+    "area": "A",
+    "definition": "Retrieve relevant evidence within the requester\u2019s permissions.",
+    "acceptance": "An answer cites accessible sources and does not reveal content outside the user\u2019s entitlement.",
+    "status": "in-progress",
+    "page": "capabilities/a-grounded-retrieval.md"
+  },
+  {
+    "id": "a-knowledge-lifecycle",
+    "name": "Knowledge lifecycle",
+    "area": "A",
+    "definition": "Manage provenance, freshness, review and retirement of reusable knowledge.",
+    "acceptance": "An expired source is visibly flagged and cannot silently remain authoritative.",
+    "status": "in-progress",
+    "page": "capabilities/a-knowledge-lifecycle.md"
+  },
+  {
+    "id": "a-memory-scopes",
+    "name": "Memory scopes",
+    "area": "A",
+    "definition": "Separate working, session, user and case memory with explicit retention.",
+    "acceptance": "A deletion request removes applicable memory without exposing another user\u2019s or tenant\u2019s context.",
+    "status": "in-progress",
+    "page": "capabilities/a-memory-scopes.md"
+  },
+  {
+    "id": "a-ontology-semantics",
+    "name": "Ontology and semantics",
+    "area": "A",
+    "definition": "Define shared business terms and their domain extensions.",
+    "acceptance": "Two systems using different names for one entity can be mapped with an explicit owner and version.",
+    "status": "in-progress",
+    "page": "capabilities/a-ontology-semantics.md"
+  },
+  {
+    "id": "b-identity-authority",
+    "name": "Identity and delegated authority",
+    "area": "B",
+    "definition": "Identify actors and limit their authority for each action.",
+    "acceptance": "An agent cannot reuse another actor\u2019s privileges or continue after delegation expires.",
+    "status": "in-progress",
+    "page": "capabilities/b-identity-authority.md"
+  },
+  {
+    "id": "b-policy-guardrails",
+    "name": "Policy and guardrails",
+    "area": "B",
+    "definition": "Enforce allowed data use, outputs and business actions.",
+    "acceptance": "An adversarial document cannot change the tool permissions or approval rules.",
+    "status": "in-progress",
+    "page": "capabilities/b-policy-guardrails.md"
+  },
+  {
+    "id": "b-safety-assurance",
+    "name": "Safety and assurance",
+    "area": "B",
+    "definition": "Assess failure modes and verify control effectiveness over time.",
+    "acceptance": "Test known misuse cases and route unexplained control failures to an accountable owner.",
+    "status": "in-progress",
+    "page": "capabilities/b-safety-assurance.md"
+  },
+  {
+    "id": "b-privacy-isolation",
+    "name": "Privacy and isolation",
+    "area": "B",
+    "definition": "Apply minimisation, retention and isolation to data and context.",
+    "acceptance": "Cross-tenant access and prohibited retention are rejected and recorded.",
+    "status": "in-progress",
+    "page": "capabilities/b-privacy-isolation.md"
+  },
+  {
+    "id": "c-roles-accountability",
+    "name": "Roles and accountability",
+    "area": "C",
+    "definition": "Assign responsibility for outcomes, oversight and exceptions.",
+    "acceptance": "An exception always has a named role able to intervene and a clear escalation path.",
+    "status": "in-progress",
+    "page": "capabilities/c-roles-accountability.md"
+  },
+  {
+    "id": "c-skills-adoption",
+    "name": "Skills and adoption",
+    "area": "C",
+    "definition": "Develop practical competence and support changes in work.",
+    "acceptance": "Practitioners demonstrate a recovery task before supervising the corresponding automation.",
+    "status": "in-progress",
+    "page": "capabilities/c-skills-adoption.md"
+  },
+  {
+    "id": "c-oversight-capacity",
+    "name": "Oversight capacity",
+    "area": "C",
+    "definition": "Keep human review effective at the expected workload.",
+    "acceptance": "Measure approval load and response time; reduce automation when review capacity is exhausted.",
+    "status": "in-progress",
+    "page": "capabilities/c-oversight-capacity.md"
+  },
+  {
+    "id": "c-operating-commercial-model",
+    "name": "Operating and commercial model",
+    "area": "C",
+    "definition": "Align teams, service boundaries and incentives with delivered value.",
+    "acceptance": "A service agreement states ownership and cost allocation for human and automated work.",
+    "status": "in-progress",
+    "page": "capabilities/c-operating-commercial-model.md"
+  },
+  {
+    "id": "ic-agent-harness",
+    "name": "Agent harness",
+    "area": "IC",
+    "definition": "Coordinate the reasoning loop, tools, stopping conditions and recovery within an agent run.",
+    "acceptance": "A run observes budgets and allowed tools, checkpoints progress and stops safely on repeated failure.",
+    "status": "in-progress",
+    "page": "capabilities/ic-agent-harness.md"
+  },
+  {
+    "id": "ic-llm-kernel",
+    "name": "LLM kernel and model abstraction",
+    "area": "IC",
+    "definition": "Provide a consistent contract for model calls and structured responses.",
+    "acceptance": "A model replacement preserves output contracts and surfaces capability differences explicitly.",
+    "status": "in-progress",
+    "page": "capabilities/ic-llm-kernel.md"
+  },
+  {
+    "id": "ic-inference-serving",
+    "name": "Inference and model serving",
+    "area": "IC",
+    "definition": "Serve model requests within latency, throughput and cost targets.",
+    "acceptance": "Load and failure tests demonstrate bounded queueing, fallback and budget enforcement.",
+    "status": "in-progress",
+    "page": "capabilities/ic-inference-serving.md"
+  },
+  {
+    "id": "ic-context-engineering",
+    "name": "Context engineering",
+    "area": "IC",
+    "definition": "Assemble task instructions, retrieved evidence and memory within context limits.",
+    "acceptance": "When context is compacted, permissions and unresolved task commitments remain intact.",
+    "status": "in-progress",
+    "page": "capabilities/ic-context-engineering.md"
+  },
+  {
+    "id": "ic-model-lifecycle",
+    "name": "Model and prompt lifecycle",
+    "area": "IC",
+    "definition": "Version, evaluate and release model configurations, prompts and adapters.",
+    "acceptance": "A release can be traced to evaluation results and rolled back to a known configuration.",
+    "status": "in-progress",
+    "page": "capabilities/ic-model-lifecycle.md"
+  },
+  {
+    "id": "ic-ai-platform-operations",
+    "name": "AI platform operations",
+    "area": "IC",
+    "definition": "Operate shared evaluation, tracing, secrets and deployment services.",
+    "acceptance": "An incident can be isolated to a runtime or model version without losing the business work record.",
+    "status": "in-progress",
+    "page": "capabilities/ic-ai-platform-operations.md"
+  },
+  {
+    "id": "dd-process-digitisation",
+    "name": "Process digitisation",
+    "area": "DD",
+    "definition": "Represent business steps, decisions and records in operational systems.",
+    "acceptance": "A selected process has a digital work identifier, owner, state transitions and exception path.",
+    "status": "in-progress",
+    "page": "capabilities/dd-process-digitisation.md"
+  },
+  {
+    "id": "dd-enterprise-systems",
+    "name": "Enterprise systems of record",
+    "area": "DD",
+    "definition": "Maintain authoritative ERP, CRM, ITSM and other business records.",
+    "acceptance": "Define which system owns each entity and how corrections propagate without conflicting masters.",
+    "status": "in-progress",
+    "page": "capabilities/dd-enterprise-systems.md"
+  },
+  {
+    "id": "dd-digital-channels",
+    "name": "Digital customer and employee channels",
+    "area": "DD",
+    "definition": "Capture interactions and hand them into executable business processes.",
+    "acceptance": "A channel interaction becomes a traceable work item with consent and identity context.",
+    "status": "in-progress",
+    "page": "capabilities/dd-digital-channels.md"
+  },
+  {
+    "id": "dd-integration-events",
+    "name": "Integration and events",
+    "area": "DD",
+    "definition": "Expose governed APIs and events for reading and changing business state.",
+    "acceptance": "Duplicate or out-of-order events cannot silently corrupt a business record.",
+    "status": "in-progress",
+    "page": "capabilities/dd-integration-events.md"
+  },
+  {
+    "id": "dd-data-products",
+    "name": "Data products and quality",
+    "area": "DD",
+    "definition": "Provide owned, documented operational and analytical data with quality contracts.",
+    "acceptance": "Consumers can identify freshness, lineage, access rules and an owner for a broken contract.",
+    "status": "in-progress",
+    "page": "capabilities/dd-data-products.md"
+  },
+  {
+    "id": "dd-digital-infrastructure",
+    "name": "Digital infrastructure",
+    "area": "DD",
+    "definition": "Provide the hosting, connectivity and recovery foundations for digital operations.",
+    "acceptance": "A recovery exercise restores a priority business process within its agreed recovery targets.",
+    "status": "in-progress",
+    "page": "capabilities/dd-digital-infrastructure.md"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "anthropic-effective-agents",
+  "title": "Building effective agents",
+  "url": "https://www.anthropic.com/research/building-effective-agents",
+  "summary": "Foundational discussion of workflow and agent patterns. Tool examples age; use this for design reasoning and verify current implementation documentation.",
+  "capabilities": [
+    "l2-planning-routing",
+    "ic-agent-harness"
+  ],
+  "status": "curated",
+  "added": "2026-10-26",
+  "reviewed_by": "Codex (initial public-source review)",
+  "reviewed_on": "2026-10-26",
+  "retirement_reason": ""
+}

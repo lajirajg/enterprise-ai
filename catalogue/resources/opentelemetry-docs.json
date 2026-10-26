@@ -1,0 +1,15 @@
+{
+  "id": "opentelemetry-docs",
+  "title": "OpenTelemetry documentation",
+  "url": "https://opentelemetry.io/docs/",
+  "summary": "Primary documentation for instrumentation and telemetry concepts, useful when connecting technical traces to end-to-end service observability.",
+  "capabilities": [
+    "l5-service-observability",
+    "ic-ai-platform-operations"
+  ],
+  "status": "curated",
+  "added": "2026-10-26",
+  "reviewed_by": "Codex (initial public-source review)",
+  "reviewed_on": "2026-10-26",
+  "retirement_reason": ""
+}
